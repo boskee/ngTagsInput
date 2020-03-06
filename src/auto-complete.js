@@ -250,7 +250,7 @@ export default function AutocompleteDirective($document, $timeout, $sce, $q, tag
               suggestionList.reset();
               handled = true;
             }
-            else if (key === tiConstants.KEYS.enter || key === tiConstants.KEYS.tab) {
+            else if (key === tiConstants.KEYS.enter) {
               handled = scope.addSuggestion();
             }
           }
